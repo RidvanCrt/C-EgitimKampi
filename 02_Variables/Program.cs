@@ -118,25 +118,75 @@ namespace _02_Variables
 
             #endregion
 
-            #region Tam Sayı Girişleri ve Dönüşümler
+            #region Klavyeden Tam Sayı Girişleri ve Dönüşümler
 
             //ABC12D
 
-            int shoesPrice, computerPrice, chairPrice, tvPrice;
+            //int shoesPrice, computerPrice, chairPrice, tvPrice;
 
-            shoesPrice = 1000;
-            computerPrice = 20000;
-            chairPrice = 5000;
-            tvPrice = 12000;
+            //shoesPrice = 1000;
+            //computerPrice = 20000;
+            //chairPrice = 5000;
+            //tvPrice = 12000;
 
-            int shoesCount, computerCount, chairCount, tvCount;
+            //int shoesCount, computerCount, chairCount, tvCount;
 
-            Console.WriteLine("Lütfen aldığınız ayakkabı sayısını giriniz: ");
+            //Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz: ");
+            //shoesCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz: ");
+            //computerCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız sandalye sayısını giriniz: ");
+            //chairCount = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız televizyon sayısını giriniz: ");
+            //tvCount = int.Parse(Console.ReadLine());
+
+            //int totalPrice = shoesCount*shoesPrice + computerCount*computerPrice + chairCount*chairPrice + tvCount*tvPrice;
+
+            //Console.WriteLine();
+            //Console.WriteLine("Toplam Ödemeniz Gereken Tutar: " + totalPrice);
+
+
+            #endregion
+
+            #region Klavyeden Ondalıklı Sayı Girişleri
+
+            //double exam1, exam2, exam3, result;
+
+            //Console.Write("Lütfen 1. Sınav notunu giriniz: ");
+            //exam1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. Sınav notunu giriniz: ");
+            //exam2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 3. Sınav notunu giriniz: ");
+            //exam3 = double.Parse(Console.ReadLine());
+
+            //result = (exam1+exam2+exam3)/3;
+
+            //Console.WriteLine();
+            //Console.WriteLine("Sınav Ortalamanız: " + result);
 
 
 
             #endregion
 
+            #region Klavyeden Karakter Girişleri
+
+            //char gender;
+
+            //Console.Write("Lütfen Cinsiyet Seçiniz: ");
+            //gender = char.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Seçtiğiniz Cinsiyet: " + gender);
+
+
+            #endregion
+
+
+            
             Console.Read();
 
         }
